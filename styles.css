@@ -73,7 +73,7 @@ h1.three{
 }
 
 h2.three{
-  padding-top: 1%;
+  padding-top: 2%;
   font-size: 12pt;
   color: #008037;
   font-weight: 800;
@@ -83,4 +83,21 @@ p.three{
   font-size: 10pt;
   color: black;
   font-weight: 400;
+}
+
+.columns{
+  display: flex;
+}
+
+div.column{
+  flex: 40%;
+  padding-left: 28pt;
+}
+
+h2.bottom-right{
+  padding-top: 65pt;
+}
+
+h2.bottom-left{
+  padding-top: 40pt;
 }
