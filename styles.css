@@ -1,26 +1,34 @@
-body {
+body{
   font-family: 'Montserrat';
 }
 
-ul.header {
+ul.header{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
+}
   
-li {
+li{
   float: left;
 }
   
-li a {
+li a{
   display: block;
   color: #008037;
   text-align: center;
-  padding: 20px 35px;
+  padding: 15px 15px;
   text-decoration: none;
-  font-size: 14pt;
+  font-size: 8pt;
   font-weight: 500;
+}
+
+li.spacing{
+  padding-top: 4pt;
+}
+
+a.logo{
+  font-size: 14pt;
 }
 
 .one{
@@ -58,7 +66,7 @@ h1.two{
 }
 
 h1.three{
-  padding-top: 15%;
+  padding-top: 20%;
   font-size: 25pt;
   font-weight: 400;
   color: #008037;
