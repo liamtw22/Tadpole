@@ -9,11 +9,7 @@ ul.header{
     overflow: hidden;
 }
   
-li{
-  float: left;
-}
-  
-li a{
+a.spacing{
   display: block;
   color: #008037;
   text-align: center;
@@ -25,6 +21,7 @@ li a{
 
 li.spacing{
   padding-top: 4pt;
+  float: left;
 }
 
 li.box{
@@ -32,7 +29,15 @@ li.box{
 }
 
 a.logo{
+  display: block;
+  color: #008037;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 8pt;
+  font-weight: 500;
   font-size: 14pt;
+  float:left;
 }
 
 div.emptybox {
@@ -42,7 +47,7 @@ div.emptybox {
   max-height: 20pt;
   position: relative;
   margin-top: 4pt;
-  margin-left: 10pt;
+  margin-right: 20pt;
   padding-left: 4pt;
   padding-right: 4pt;
   padding-bottom: 15pt;
@@ -62,6 +67,7 @@ div.fullbox {
   padding-bottom: 15pt;
   margin-right: 10pt;
   min-width: 70pt;
+  margin-right: 20pt;
 }
 
 a.white{
@@ -143,4 +149,60 @@ h2.bottom-right{
 
 h2.bottom-left{
   padding-top: 40pt;
+}
+
+div.footer{
+  display: inline;
+  text-align: center;
+  
+}
+ul.footer{
+  list-style-type: none;
+  margin-top: 100pt;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+a.spacing2{
+  color: #008037;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 8pt;
+  font-weight: 700;
+  margin-left: 32pt;
+  margin-right: 32pt;
+}
+
+a.logo2{
+  color: #008037;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 16pt;
+  font-weight: 500;
+  margin-left: 100pt;
+  margin-right: 100pt;
+}
+
+li.spacing2{
+  display: inline;
+  padding-top: 4pt;
+  float: center;
+}
+
+hr.solid{
+  border-top: 1px solid grey;
+  width: 82%;
+  margin-top: 25pt;
+}
+
+h3.footer{
+  color: grey;
+  font-size: 7pt;
+  text-align: center;
+  margin-top: 50pt;
+  margin-bottom: 50pt;
+  font-weight: 500;
 }
