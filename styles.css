@@ -27,8 +27,50 @@ li.spacing{
   padding-top: 4pt;
 }
 
+li.box{
+  padding-bottom: 5pt;
+}
+
 a.logo{
   font-size: 14pt;
+}
+
+div.emptybox {
+  border: 2px solid #008037;
+  border-radius:5px;
+  float: right;
+  max-height: 20pt;
+  position: relative;
+  margin-top: 2pt;
+  margin-left: 10pt;
+  padding-left: 4pt;
+  padding-right: 4pt;
+  padding-bottom: 10pt;
+  min-width: 70pt;
+}
+
+div.fullbox {
+  border: 2px solid #008037;
+  background-color: #008037;
+  border-radius:5px;
+  float: right;
+  max-height: 20pt;
+  position: relative;
+  margin-top: 2pt;
+  padding-left: 4pt;
+  padding-right: 4pt;
+  padding-bottom: 10pt;
+  margin-right: 10pt;
+  min-width: 70pt;
+}
+
+a.white{
+  color: white;
+  padding-left: 15pt;
+}
+
+a.green{
+  padding-left: 20pt;
 }
 
 .one{
@@ -36,7 +78,6 @@ a.logo{
   padding-left: 8%;
   width: 55%;
   text-align: center;
-  
 }
 
 h1.one{
