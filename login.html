@@ -2,28 +2,32 @@
 <html>    
 <head>    
     <title>Login Form</title>    
-    <link rel="stylesheet" type="text/css" href="loginstyle.css">    
+    <link rel="stylesheet" type="text/css" href="loginstyle.css">   
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900,1000" rel="stylesheet"> 
 </head>    
 <body>    
-    <h2>Login Page</h2><br>    
+    <ul class="header">
+        <li><a class="logo" href="landing.html">Tadpole</a></li>
+        <li class="spacing"><a href="about.html">About</a></li>
+        <li class="spacing"><a href="mission.html">Mission</a></li>
+        <li class="spacing"><a href="community.html">Community</a></li>
+        <li class="spacing"><a href="support.html">Support</a></li>
+        <div class="emptybox"><li class="box"><a class ="green"href="login.html">Sign In</a></li></div>
+        <div class="fullbox"><li class="box"><a class="white" href="join.html">Join Now</a></li></div>
+    </ul>
+    <h2>Log in to your account</h2><br>    
     <div class="login">    
-    <form id="login" method="get" action="login.php">    
-        <label><b>User Name     
-        </b>    
-        </label>    
-        <input type="text" name="Uname" id="Uname" placeholder="Username">    
-        <br><br>    
-        <label><b>Password     
-        </b>    
-        </label>    
+    <form id="login" method="get" action="login.php">       
+        <input type="Email" name="Email" id="Email" placeholder="Email Address">    
+        <br><br>        
         <input type="Password" name="Pass" id="Pass" placeholder="Password">    
         <br><br>    
-        <input type="button" name="log" id="log" value="Log In Here">       
+        <input type="button" name="log" id="log" value="Log In">       
         <br><br>    
         <input type="checkbox" id="check">    
         <span>Remember me</span>    
         <br><br>    
-        Forgot <a href="#">Password</a>    
+        <div class="forgot"><a class="forgot" href="#">Forgot Password</a></div>    
     </form>     
 </div>    
 </body>    

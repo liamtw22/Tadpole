@@ -41,11 +41,11 @@ div.emptybox {
   float: right;
   max-height: 20pt;
   position: relative;
-  margin-top: 2pt;
+  margin-top: 4pt;
   margin-left: 10pt;
   padding-left: 4pt;
   padding-right: 4pt;
-  padding-bottom: 10pt;
+  padding-bottom: 15pt;
   min-width: 70pt;
 }
 
@@ -56,21 +56,23 @@ div.fullbox {
   float: right;
   max-height: 20pt;
   position: relative;
-  margin-top: 2pt;
+  margin-top: 4pt;
   padding-left: 4pt;
   padding-right: 4pt;
-  padding-bottom: 10pt;
+  padding-bottom: 15pt;
   margin-right: 10pt;
   min-width: 70pt;
 }
 
 a.white{
   color: white;
-  padding-left: 15pt;
+  padding-left: 12pt;
+  font-size: 12pt;
 }
 
 a.green{
-  padding-left: 20pt;
+  padding-left: 15pt;
+  font-size: 12pt;
 }
 
 .one{
