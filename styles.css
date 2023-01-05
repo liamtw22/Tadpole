@@ -108,11 +108,10 @@ div.loginsplit{
 div.loginbox{ 
   margin-top: 20%;
   padding: 5%;
-  max-width: 65%;
-  min-width: 65%;
+  max-width: 500px;
+  min-width: 500px;
   border: 1px solid grey;  
-  margin-left: 100px;
-
+  margin-left: 120px;
 }
 
 h2.loginh2{
@@ -157,10 +156,10 @@ span{
 
 
 .two{
-  padding-top: 18%;
+  padding-top: 10%;
   left: 0;
   width: 100%;
-  padding-left: 5%;
+  padding-left: 4%;
 }
 
 h1.two{
@@ -172,7 +171,7 @@ h1.two{
 .three{
   left: 0;
   width: 100%;
-  padding-left: 5%;
+  padding-left: 4%;
 }
 
 h1.three{
@@ -187,12 +186,16 @@ h2.three{
   font-size: 12pt;
   color: #008037;
   font-weight: 800;
+  padding-left: 4%;
 }
 
 p.three{
   font-size: 10pt;
   color: black;
   font-weight: 400;
+  min-width: 600px;
+  max-width: 600px;
+  padding-left: 4%;
 }
 
 .columns{
@@ -222,40 +225,39 @@ ul.footer{
   margin-top: 100pt;
   padding: 0;
   overflow: hidden;
-
+  min-width: 700px;
 }
 
 a.spacing2{
   color: #008037;
   text-align: center;
-  padding: 15px 15px;
   text-decoration: none;
   font-size: 8pt;
   font-weight: 700;
-  margin-left: 32pt;
-  margin-right: 32pt;
+  margin-left: 3%;
+  margin-right: 3%;
+  overflow: hidden;
+  
 }
 
 a.logo2{
   color: #008037;
   text-align: center;
-  padding: 15px 15px;
   text-decoration: none;
   font-size: 16pt;
   font-weight: 500;
-  margin-left: 100pt;
-  margin-right: 100pt;
 }
 
 li.spacing2{
   display: inline;
+  
   padding-top: 4pt;
   float: center;
 }
 
 hr.solid{
   border-top: 1px solid grey;
-  width: 82%;
+  width: 900px;
   margin-top: 25pt;
 }
 
@@ -264,6 +266,6 @@ h3.footer{
   font-size: 7pt;
   text-align: center;
   margin-top: 50pt;
-  margin-bottom: 50pt;
+  margin-bottom: 5%;
   font-weight: 500;
 }
