@@ -1,0 +1,162 @@
+body{
+    font-family: 'Montserrat';
+    max-width: 100%;
+  }
+  
+ul.header{
+    list-style-type: none;
+    padding: 0;
+}
+
+a.logo{
+  display: block;
+  color: #008037;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14pt;
+  padding-top: 2px;
+  padding-left: 2%;
+  padding-right: 0.5%;
+  float:left;
+}
+  
+a.spacing{
+  display: block;
+  color: #008037;
+  text-decoration: none;
+  font-size: 8pt;
+  font-weight: 500;
+}
+
+li.spacing{
+  float: left;
+  padding-top: 7px;
+  padding-right: 1%;
+  padding-left: 2%;
+}
+
+li.box{
+  padding-bottom: 5pt;
+}
+
+div.emptybox {
+  border: 2px solid #008037;
+  border-radius: 5px;
+  float: right;
+  margin-right: 2%;
+  padding-top: 0.25%;
+  padding-bottom: 0.25%;
+  min-width: 100px;
+  min-height: 25px;
+  max-width: 100px;
+  max-height: 25px;
+  padding-right: 1%;
+}
+
+div.fullbox {
+  border: 2px solid #008037;
+  background-color: #008037;
+  border-radius: 5px;
+  float: right;
+  margin-right: 2%;
+  padding-top: 0.25%;
+  padding-bottom: 0.25%;
+  min-width: 100px;
+  min-height: 25px;
+  max-width: 100px;
+  max-height: 25px;
+  padding-right: 1%;
+}
+
+a.white{
+  color: white;
+  padding-left: 17%;
+  font-size: 12pt;
+  text-decoration: none;
+  white-space: nowrap
+}
+
+a.green{
+  color: #008037;
+  padding-left: 25%;
+  font-size: 12pt;
+  text-decoration: none;
+  white-space: nowrap
+}
+
+div.missionbody{
+    width: 100%;
+    text-align: center;
+}
+
+h1.missionheader{
+    font-size: 25pt;
+    font-weight: 400;
+    padding-top: 75pt;
+    color:#008037;
+  }
+p.missionparagraph{
+    text-align: center;
+    font-size: larger;
+    line-height: 150%;
+    padding-bottom: 5%;
+}
+
+img.missionimg{
+    max-width: 70%;
+}
+
+div.footer{
+    display: inline;
+    text-align: center;
+}
+
+ul.footer{
+  list-style-type: none;
+  margin-top: 100pt;
+  padding: 0;
+  overflow: hidden;
+  min-width: 700px;
+}
+
+a.spacing2{
+  color: #008037;
+  text-align: center;
+  text-decoration: none;
+  font-size: 8pt;
+  font-weight: 700;
+  margin-left: 3%;
+  margin-right: 3%;
+  overflow: hidden;
+  
+}
+
+a.logo2{
+  color: #008037;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16pt;
+  font-weight: 500;
+}
+
+li.spacing2{
+  display: inline;
+  
+  padding-top: 4pt;
+  float: center;
+}
+
+hr.solid{
+  border-top: 1px solid grey;
+  width: 900px;
+  margin-top: 25pt;
+}
+
+h3.footer{
+  color: grey;
+  font-size: 7pt;
+  text-align: center;
+  margin-top: 50pt;
+  margin-bottom: 5%;
+  font-weight: 500;
+}

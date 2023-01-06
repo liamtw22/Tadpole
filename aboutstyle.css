@@ -88,7 +88,15 @@ a.green{
     text-align: center;
     font-size: 25pt;
     font-weight: 400;
-    padding-top: 50pt;
+    padding-top: 75pt;
+    color:#008037;
+  }
+
+  h1.header2{
+    text-align: center;
+    font-size: 25pt;
+    font-weight: 400;
+    padding-top: 20pt;
     color:#008037;
   }
 
